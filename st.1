@@ -4,6 +4,8 @@ st \- simple terminal
 .SH SYNOPSIS
 .B st
 .RB [ \-aiv ]
+.RB [ \-d ]
+.IR path ]
 .RB [ \-c
 .IR class ]
 .RB [ \-f
@@ -28,6 +30,8 @@ st \- simple terminal
 .PP
 .B st
 .RB [ \-aiv ]
+.RB [ \-d ]
+.IR path ]
 .RB [ \-c
 .IR class ]
 .RB [ \-f
@@ -58,6 +62,9 @@ disable alternate screens in terminal
 .BI \-c " class"
 defines the window class (default $TERM).
 .TP
+.BI \-d " path"
+changes the working directory to
+.IR path .
 .BI \-f " font"
 defines the
 .I font
